@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(168 168 213);;
+    font-family: 'Parkinsans', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(80 42 136);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    font-size: 1.0rem;
+    
+}
+nav ul li a{
+   text-decoration: none;
+   color: white;
+   padding-left: 10px;
+}
+nav ul li a:hover{
+    color: rgb(152, 152, 222);
+    font-size: 1.25rem;
+ }
+.left{
+    font-size: 1.25rem;
+    color: white;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 120px 0;
+}
+.firstsection>div{
+    width: 42%;
+}
+
+.left-first-section{
+   font-size: 3.5rem;
+   padding-left: 200px;
+}
+.right-first-section img{
+   width: 70%;
+   margin: 3px;
+}
+.purple{
+    color: rgb(148, 54, 237);
+}
+#element{
+    color: lavender;
+}
+.projects-section {
+    text-align: center;
+    margin: 50px 20px;
+    padding: 30px;
+}
+
+.projects-section h1 {
+    color: #502A88;
+    margin-bottom: 45px;
+    font-size: 3.0rem;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: rgb(239, 233, 243);
+    padding: 20px;
+    width: 500px;
+    height: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.project-card img {
+    width: 75%;
+    border-radius: 10px;
+    padding: 25px 0 10px 0;
+}
+
+.project-card a {
+    text-decoration: none;
+    color: #502A88;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #502A88;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #b28aeb;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
